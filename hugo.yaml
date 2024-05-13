@@ -30,7 +30,7 @@ params:
 
   blog:
     blog_name: nozsh
-    blog_link: https://nozsh.su/blog/
+    blog_link: "https://nozsh.su/blog/"
     blog_desc: Заметки. Идеи. Гайды.
 
   kb:

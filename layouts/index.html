@@ -2,8 +2,7 @@
 <script> 
 jQuery(document).ready(function($) {
     var animation = false;
-    // var availableCommands = ['blog', 'kb', 'contact',]
-    var availableCommands = []
+    var availableCommands = ['blog', 'gotoblog', 'kb', 'gotokb', 'contact', 'gotocontact'];
                     
 
     $('body').terminal(function(command, term) {
@@ -97,25 +96,44 @@ jQuery(document).ready(function($) {
       /* Functions End */
         commands = command.split(/[ ]+/);
         switch(commands[0]) {
-            // case 'blog':
-            //       blog();
-            //       break;
-            // case 'kb':
-            // case 'knowledgebase':
-            //       kb();
-            //       break;
-            // case 'contact':
-            //       contact();
-            //       break;
+            case 'blog':
+                  blog();
+            break;
+
+            case 'gotoblog':
+            window.location = '{{ .Site.Params.blog.blog_link }}'
+            break;
+
+            case 'kb':
+            case 'knowledgebase':
+                  kb();
+            break;
+
+            case 'gotokb':
+            case 'gotoknowledgebase':
+            window.location = '{{ .Site.Params.kb.kb_link }}'
+            break;
+
+            case 'contact':
+                  contact();
+            break;
+    
+            case 'gotocontact':
+            window.location = '{{ .Site.Params.contact.contact_link }}'
+            break;
+
             case 'help':
                 help();
                 break;
+
             case 'exit':
                 loading();
                 setTimeout(function(){window.location = '{{ .Site.Params.exitLocation }}'}, 2000);
                 break;
+
 	          case '':
 		            break;
+
             default:
                 term.echo("\nнеизвестная команда: " + command + "\n" +
                           "введите 'help', чтобы получить список доступных команд\n");

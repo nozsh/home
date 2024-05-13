@@ -1,3 +1,8 @@
 User-agent: *
+Disallow: /tags/
+Disallow: /categories/
+Disallow: /assets/
+Disallow: /fav/
 Disallow: /blog/search/
+Disallow: /blog/assets/
 Sitemap: https://nozsh.su/sitemap.xml
