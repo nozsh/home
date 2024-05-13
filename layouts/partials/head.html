@@ -11,11 +11,19 @@
     <link rel="canonical" href="{{ .Permalink }}" />
     {{- partial "favicons.html" . }}
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <!-- Remote -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.1/js/jquery.terminal.min.js"></script>
     <script src="https://unpkg.com/jquery.terminal/js/autocomplete_menu.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.1/css/jquery.terminal.min.css"
-      rel="stylesheet" />
+      rel="stylesheet" /> -->
+
+    <!-- Local -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.terminal.min.js"></script>
+    <script src="assets/js/autocomplete_menu.js"></script>
+    <link rel="stylesheet" href="assets/css/jquery.terminal.min.css">
 
     <style>
       body {
