@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/home/categories/</loc>
+    <loc>https://nozsh.su/categories/</loc>
   </url><url>
-    <loc>https://example.org/home/</loc>
+    <loc>https://nozsh.su/</loc>
   </url><url>
-    <loc>https://example.org/home/tags/</loc>
+    <loc>https://nozsh.su/tags/</loc>
   </url>
 </urlset>

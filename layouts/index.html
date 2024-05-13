@@ -2,7 +2,8 @@
 <script> 
 jQuery(document).ready(function($) {
     var animation = false;
-    var availableCommands = ['blog', 'kb', 'contact',]
+    // var availableCommands = ['blog', 'kb', 'contact',]
+    var availableCommands = []
                     
 
     $('body').terminal(function(command, term) {
@@ -96,16 +97,16 @@ jQuery(document).ready(function($) {
       /* Functions End */
         commands = command.split(/[ ]+/);
         switch(commands[0]) {
-            case 'blog':
-                  blog();
-                  break;
-            case 'kb':
-            case 'knowledgebase':
-                  kb();
-                  break;
-            case 'contact':
-                  contact();
-                  break;
+            // case 'blog':
+            //       blog();
+            //       break;
+            // case 'kb':
+            // case 'knowledgebase':
+            //       kb();
+            //       break;
+            // case 'contact':
+            //       contact();
+            //       break;
             case 'help':
                 help();
                 break;

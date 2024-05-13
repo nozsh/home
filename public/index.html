@@ -12,14 +12,14 @@
     <meta name="description" content="Make bash great again.">
     <meta property="og:title" content="nozsh" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://example.org/home/" />
+    <meta property="og:url" content="https://nozsh.su/" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="" />
-    <link rel="canonical" href="https://example.org/home/" />    <link rel="icon" href="https://example.org/home/fav/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://example.org/home/fav/favicon-180px.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://example.org/home/fav/favicon-32px.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://example.org/home/fav/favicon-16px.png">
+    <link rel="canonical" href="https://nozsh.su/" />    <link rel="icon" href="https://nozsh.su/fav/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://nozsh.su/fav/favicon-180px.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://nozsh.su/fav/favicon-32px.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://nozsh.su/fav/favicon-16px.png">
     
-    <link rel="mask-icon" href="https://example.org/home/fav/favicon.svg">
+    <link rel="mask-icon" href="https://nozsh.su/fav/favicon.svg">
 
     <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.35.1/js/jquery.terminal.min.js"></script>
@@ -32,6 +32,10 @@
         width: 100%;
         font-size: 18px;
       }
+
+      .terminal {
+        --size: 1.2;
+      }
     </style>
     
 </head>
@@ -41,7 +45,8 @@
 <script> 
 jQuery(document).ready(function($) {
     var animation = false;
-    var availableCommands = ['blog', 'kb', 'contact',]
+    
+    var availableCommands = []
                     
 
     $('body').terminal(function(command, term) {
@@ -135,16 +140,16 @@ jQuery(document).ready(function($) {
        
         commands = command.split(/[ ]+/);
         switch(commands[0]) {
-            case 'blog':
-                  blog();
-                  break;
-            case 'kb':
-            case 'knowledgebase':
-                  kb();
-                  break;
-            case 'contact':
-                  contact();
-                  break;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             case 'help':
                 help();
                 break;
