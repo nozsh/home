@@ -42,6 +42,10 @@ params:
     contact_name: Связь
     contact_link: https://nozsh.su/blog/contact/
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
 markup:
   goldmark:
     renderer:
