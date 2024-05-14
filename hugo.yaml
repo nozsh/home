@@ -11,6 +11,8 @@ languages:
     languageName: Русский
     weight: 10
 
+disableKinds: ["taxonomy", "taxonomyTerm"]
+
 params:
   title: nozsh
   description: "Make bash great again."
