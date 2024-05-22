@@ -6,4 +6,5 @@ Disallow: /fav/
 Disallow: /kb/
 Disallow: /blog/search/
 Disallow: /blog/assets/
+Disallow: /blog/typo/
 Sitemap: https://nozsh.su/sitemap.xml
