@@ -42,7 +42,7 @@ params:
 
   contact:
     contact_name: Связь
-    contact_link: https://nozsh.su/blog/contact/
+    contact_link: https://nozsh.su/contact/
 
 minify:
   disableXML: true
