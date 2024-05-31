@@ -4,6 +4,7 @@ Disallow: /categories/
 Disallow: /assets/
 Disallow: /fav/
 Disallow: /kb/
+Disallow: /xcom/
 Disallow: /blog/search/
 Disallow: /blog/assets/
 Disallow: /blog/typo/
