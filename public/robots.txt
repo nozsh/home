@@ -8,4 +8,5 @@ Disallow: /xcom/
 Disallow: /blog/search/
 Disallow: /blog/assets/
 Disallow: /blog/typo/
+Disallow: /blog/by-ai/
 Sitemap: https://nozsh.su/sitemap.xml
