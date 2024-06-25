@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+:root {
+  --default-font: "JetBrains Mono", monospace;
+  --bg-color: #000;
+  --font-color: #a6ff00;
+  --font-size: 1.2rem;
+  --font-weight: 800;
+  --font-line-height: 2rem;
+  --link-color: color-mix(in srgb, var(--font-color) 100%, green);
+  --link-color-hover: color-mix(in srgb, var(--font-color) 80%, black);
+}
+
+body {
+  font-family: var(--default-font);
+  background: var(--bg-color);
+  color: var(--font-color);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--font-line-height);
+}
+
+.bg {
+  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/no-signal.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  z-index: -9999;
+}
+
+a,
+a:hover,
+a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.not-found {
+  font-size: 10rem;
+  margin-bottom: 5rem;
+}
