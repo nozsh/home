@@ -1,12 +1,8 @@
 #!/bin/bash
 
-echo "- Purging public dir"
+echo "- Delete public and resources"
 echo
-rm -rf public/* && echo "- Purging public dir: Done"
-echo
-echo "- Re-generate public dir"
-echo
-hugo && echo "Re-generate public dir: Done"
+rm -rf public && rm -rf resources
 echo
 echo "- Work with git"
 echo
