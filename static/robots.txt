@@ -3,10 +3,12 @@ Disallow: /tags/
 Disallow: /categories/
 Disallow: /assets/
 Disallow: /fav/
-Disallow: /kb/
 Disallow: /xcom/
+Disallow: /kb/assets/
+Disallow: /kb/fav/
 Disallow: /blog/search/
 Disallow: /blog/assets/
+Disallow: /blog/fav/
 Disallow: /blog/typo/
 Disallow: /blog/by-ai/
 Sitemap: https://nozsh.su/sitemap.xml
