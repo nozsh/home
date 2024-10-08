@@ -13,6 +13,7 @@ description: "Как со мной связаться"
 # readingTime: true
 # hideComments: false
 # color: "" #color from the theme settings
+noindex: true
 # weight: 1 # less = top pos; more = low pos 
 ---
 
