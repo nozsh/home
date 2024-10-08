@@ -47,7 +47,7 @@ languages:
     params:
       languageName: Русский
       title: nozsh
-      subtitle: "A simple, retro theme for Hugo"
+      subtitle: "Главный портал на «nozsh»"
       owner: ""
       keywords: ""
       copyright: "nozsh"
@@ -85,6 +85,12 @@ languages:
         #   name: ✨ AI
         #   url: /kb/qus/ai/chat-bots/chatgpt/
         #   weight: 70
+
+## MARKDOWN SETTINGS ##
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 minify:
   disableXML: true

@@ -1,10 +1,10 @@
 ---
-# canonicalURL: "" # EX: blog/article or https://<>
-title: "IDK"
-description: "IDK"
-# cover: ""
-# coverW: 1500
-# coverH: 1080
+canonicalURL: "blog/ssh-bez-parolia/" # EX: blog/article or https://<>
+title: "SSH без пароля"
+description: "Как создать SSH ключ."
+cover: "@img/ssh-bez-parolia-cover.webp"
+coverW: 480
+coverH: 240
 # coverCaption: ""
 # date: 2001-01-29
 # author: "nozsh"

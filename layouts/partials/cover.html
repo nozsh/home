@@ -47,19 +47,19 @@
       {{ if and $ctx.Params.coverCaption $isCoverCaptionEnabled }}
         <figure> 
           <!-- Cover image found -->
-          <img src="{{ $newSrc }}"
+          <img loading="eager" src="{{ $newSrc }}"
           class="post-cover"
           alt="{{ .Title | plainify | default " " }}"
-          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" />
+          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" {{- if $ctx.Params.coverW -}}width="{{ $ctx.Params.coverW }}px"{{- end -}} {{- if $ctx.Params.coverH -}}height="{{ $ctx.Params.coverH }}px"{{- end -}} />
           
           <figcaption class="right">{{ $ctx.Params.coverCaption | safeHTML }}</figcaption>
         </figure>
       {{ else }}
       <!-- Cover image found -->
-        <img src="{{ $newSrc }}"
+        <img loading="eager" src="{{ $newSrc }}"
           class="post-cover"
           alt="{{ .Title | plainify | default " " }}"
-          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" />
+          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" {{- if $ctx.Params.coverW -}}width="{{ $ctx.Params.coverW }}px"{{- end -}} {{- if $ctx.Params.coverH -}}height="{{ $ctx.Params.coverH }}px"{{- end -}} />
       {{ end }}
 
   {{- else -}}
@@ -67,19 +67,19 @@
       {{ if and $ctx.Params.coverCaption $isCoverCaptionEnabled }}
         <figure> 
           <!-- Cover image found -->
-          <img src="{{ $cover }}"
+          <img loading="eager" src="{{ $cover }}"
           class="post-cover"
           alt="{{ .Title | plainify | default " " }}"
-          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" />
+          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" {{- if $ctx.Params.coverW -}}width="{{ $ctx.Params.coverW }}px"{{- end -}} {{- if $ctx.Params.coverH -}}height="{{ $ctx.Params.coverH }}px"{{- end -}} />
           
           <figcaption class="right">{{ $ctx.Params.coverCaption | safeHTML }}</figcaption>
         </figure>
       {{ else }}
       <!-- Cover image found -->
-        <img src="{{ $cover }}"
+        <img loading="eager" src="{{ $cover }}"
           class="post-cover"
           alt="{{ .Title | plainify | default " " }}"
-          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" />
+          title="{{ $ctx.Params.CoverCredit |plainify|default "Cover Image" }}" {{- if $ctx.Params.coverW -}}width="{{ $ctx.Params.coverW }}px"{{- end -}} {{- if $ctx.Params.coverH -}}height="{{ $ctx.Params.coverh }}px"{{- end -}} />
       {{ end }}
 
   {{- end -}}
