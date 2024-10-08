@@ -1,0 +1,39 @@
+:root {
+  --background: rgb(29, 30, 32);
+}
+
+.navigation-menu a {
+  text-decoration: none;
+  /* color: var(--accent); */
+  box-shadow: 0 1px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.readhere span,
+.readhere a {
+  font-weight: bold;
+}
+
+.readhere span a {
+  text-decoration: none;
+}
+
+.readhere a:not(span a) {
+  color: var(--accent);
+}
+
+.post-meta .post-description {
+  margin-top: 10px;
+}
+
+.post-meta .post-description::before {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .post-cover {
+    border-width: 10px;
+    padding: 10px;
+  }
+}

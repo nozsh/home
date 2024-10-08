@@ -1,0 +1,95 @@
+baseURL: https://nozsh.su/
+languageCode: ru
+defaultContentLanguage: ru
+title: nozsh
+theme: ["re-terminal"]
+paginate: 5
+
+disableKinds: ["taxonomy"]
+
+params:
+  contentTypeName: posts
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor: orange
+  showMenuItems: 3
+  showLanguageSelector: false
+  fullWidthTheme: false
+  centerTheme: true
+  autoCover: false
+  showLastUpdated: false
+  # set a custom favicon (default is a `themeColor` square)
+  favicon: "fav/favicon.ico"
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix: "Updated"
+  # set all headings to their default size (depending on browser settings)
+  # oneHeadingSize: true
+  # whether to show a page's estimated reading time
+  readingTime: false # default
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  # Toc: false
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  # TocTitle: "Table of Contents"
+  # banner:
+  #   dismissible: false
+  #   text: "Check it out on GitHub"
+  #   url: "https://github.com/mirus-ua/hugo-theme-re-terminal"
+  # twitter:
+  #   creator: ""
+  #   site: ""
+  assets:
+    assetsURL: "https://assets.nozsh.su/img/blog/"
+    assetsPATH: "@img/"
+
+languages:
+  ru:
+    params:
+      languageName: Русский
+      title: nozsh
+      subtitle: "A simple, retro theme for Hugo"
+      owner: ""
+      keywords: ""
+      copyright: "nozsh"
+      menuMore: Показать еще
+      readMore: Подробнее
+      readOtherPosts: Читайте другие посты
+      newerPosts: Новые посты
+      olderPosts: Старые посты
+      missingContentMessage: Страница не найдена...
+      missingBackButtonLabel: Вернуться на главную
+      minuteReadingTime: мин. чтения
+      words: слов
+      logo:
+        logoText: nozsh
+        logoHomeLink: /
+    menu:
+      main:
+        - identifier: blog
+          name: ✏️ Блог
+          url: /blog/
+          weight: 10
+        - identifier: knowledge-base
+          name: 🧠 Knowledge Base
+          url: /kb/
+          weight: 50
+        - identifier: contact
+          name: ☕ Контакт
+          url: /contact/
+          weight: 55
+        # - identifier: knowledge-base-temp-mail
+        #   name: ✉️ Temp Mail
+        #   url: /kb/qus/fake-person/temp-mail/
+        #   weight: 60
+        # - identifier: knowledge-base-ai
+        #   name: ✨ AI
+        #   url: /kb/qus/ai/chat-bots/chatgpt/
+        #   weight: 70
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+permalinks:
+  posts: "/:filename" # convert = /posts/post1 => /post1, https://gohugo.io/content-management/urls/
+  pages: "/:filename"

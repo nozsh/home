@@ -1,0 +1,9 @@
+{{ if .Page.Params.canonicalURL  }}
+{{ $baseURL := .Site.BaseURL -}}
+<div>
+  <p class="readhere">
+    Читайте <span><a href='{{ printf "%s%s" $baseURL .Page.Params.canonicalURL }}'>«{{ .Page.Title -}}»</a></span> в <a
+      href='{{ printf "%s%s" $baseURL .Page.Params.canonicalURL }}'>блоге</a>.
+  </p>
+</div>
+{{ end }}
