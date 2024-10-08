@@ -45,7 +45,7 @@ params:
     contact_link: https://nozsh.su/contact/
 
 minify:
-  disableXML: false
+  disableXML: true
   minifyOutput: true
 
 markup:
