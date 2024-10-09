@@ -6,6 +6,7 @@ Disallow: /fav/
 Disallow: /xcom/
 Disallow: /kb/assets/
 Disallow: /kb/fav/
+Disallow: /kb/typo/
 Disallow: /blog/search/
 Disallow: /blog/assets/
 Disallow: /blog/fav/

@@ -1,3 +1,9 @@
+<style>
+  :root {
+    --background: rgb(29, 30, 32);
+  }
+</style>
+
 {{- $customCSS := resources.Get "css/custom.css" }}
 <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css"
   href="{{ $customCSS.RelPermalink }}?v=1.0.0">
