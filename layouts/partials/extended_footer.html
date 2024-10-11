@@ -1,3 +1,18 @@
+<!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const classes = ["orange", "blue", "red", "green", "pink"];
+
+    // Убираем все классы
+    document.body.className = '';
+
+    // Выбираем случайный класс
+    const randomClass = classes[Math.floor(Math.random() * classes.length)];
+
+    // Назначаем новый класс
+    document.body.classList.add(randomClass);
+  });
+</script> -->
+
 {{- $ntlinks := resources.Get "js/ntlinks.js" }}
 <script src="{{ $ntlinks.RelPermalink }}?v=1" defer></script>
 

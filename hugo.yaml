@@ -1,7 +1,7 @@
 baseURL: https://nozsh.su/
 languageCode: ru
 defaultContentLanguage: ru
-title: nozsh
+title: nozshub
 theme: ["re-terminal"]
 paginate: 5
 
@@ -46,8 +46,8 @@ languages:
   ru:
     params:
       languageName: Русский
-      title: nozsh
-      subtitle: "Главный портал на «nozsh»"
+      title: nozshub
+      subtitle: "Портал на «nozsh»"
       owner: ""
       keywords: ""
       copyright: "© 2024 nozsh"
@@ -61,7 +61,7 @@ languages:
       minuteReadingTime: мин. чтения
       words: слов
       logo:
-        logoText: nozsh
+        logoText: nozshub
         logoHomeLink: /
     menu:
       main:

@@ -14,7 +14,7 @@ description: "Как со мной связаться"
 # hideComments: false
 # color: "" #color from the theme settings
 noindex: true
-# weight: 1 # less = top pos; more = low pos 
+weight: 100 # less = top pos; more = low pos 
 ---
 
 - knowx101@proton.me
@@ -22,6 +22,6 @@ noindex: true
 
 ---
 
-Контакта в Element НЕ будет если вы используйте `matrix.org` или `matrix.im`.
+Контакта в Element **НЕ будет** если вы используйте `matrix.org` или `matrix.im`.
 
 Используйте другой [сервер](https://servers.joinmatrix.org/?sl).

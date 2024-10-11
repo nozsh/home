@@ -15,7 +15,27 @@
 }
 
 .readhere a:not(span a) {
-  color: var(--accent);
+  /* color: var(--accent); */
+}
+
+span.accent-link {
+  /* color: var(--accent); */
+}
+
+a:has(span.accent-link) {
+  text-decoration: none;
+  box-shadow: 0 1px var(--accent);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+a:has(span.accent-link):hover {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--accent);
+  box-shadow: none;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 img.post-cover {
