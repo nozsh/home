@@ -1,7 +1,7 @@
 ---
 # canonicalURL: "" # EX: blog/article or https://<>
 title: "О блоге"
-description: "IDK"
+description: "Заметки. Идеи. Гайды."
 # cover: ""
 # coverW: 1500
 # coverH: 1080
