@@ -10,7 +10,7 @@ disableKinds: ["taxonomy"]
 params:
   contentTypeName: posts
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor: orange
+  themeColor: pink
   showMenuItems: 3
   showLanguageSelector: false
   fullWidthTheme: false
