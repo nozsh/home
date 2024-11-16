@@ -70,3 +70,8 @@ kbd {
 .footer .copyright {
   font-size: 0.75rem;
 }
+
+.pagination__title-h,
+.pagination__title hr {
+  display: none;
+}
