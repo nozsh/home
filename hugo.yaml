@@ -1,7 +1,7 @@
 baseURL: https://nozsh.su/
 languageCode: ru
 defaultContentLanguage: ru
-title: nozshub
+title: nozsh::hub
 theme: ["re-terminal"]
 paginate: 5
 
