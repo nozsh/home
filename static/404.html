@@ -27,22 +27,6 @@
       box-sizing: border-box;
     }
 
-    @font-face {
-      font-display: swap;
-      font-family: "Fira Code";
-      font-style: normal;
-      font-weight: 400;
-      src: url("/fonts/FiraCode-Regular.woff") format("woff");
-    }
-
-    @font-face {
-      font-display: swap;
-      font-family: "Fira Code";
-      font-style: normal;
-      font-weight: 800;
-      src: url("/fonts/FiraCode-Bold.woff") format("woff");
-    }
-
     a,
     a:hover,
     a:active,
@@ -87,15 +71,25 @@
 
   <style>
     .bg {
+      background-image: url("/img/404-bg.avif");
+      z-index: 2;
+    }
+
+    .preload-bg {
+      background-image: url("/img/404-bg-preload.avif");
+      filter: blur(1rem);
+      z-index: 1;
+    }
+
+    .bg,
+    .preload-bg {
       position: fixed;
       width: 100vw;
       height: 100vh;
-      background-image: url("/img/404-bg.avif");
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
-      z-index: 1;
     }
 
     .home {
@@ -263,9 +257,12 @@
       transform: scaleX(0);
     }
   </style>
+
+  <link rel="preload" as="style" onload="this.rel='stylesheet'" type="text/css" href="/css/load-font.css?v=1">
 </head>
 
 <body>
+  <div class="preload-bg"></div>
   <div class="bg"></div>
 
   <div class="home">
