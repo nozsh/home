@@ -16,8 +16,7 @@ description: "a.k.a Knowledge Base"
 # hideComments: false
 # color: "" #color from the theme settings
 # noindex: true
-weight: 50 # less = top pos; more = low pos 
+weight: 50 # less = top pos; more = low pos
 ---
 
-
-**[<span class="accent-link">../kb</span>](../kb/)**
+**[<span class="accent-link">../kb</span>](/kb/)**

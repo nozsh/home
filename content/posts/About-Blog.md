@@ -16,7 +16,7 @@ description: "Заметки. Идеи. Гайды."
 # hideComments: false
 # color: "" #color from the theme settings
 # noindex: true
-weight: 10 # less = top pos; more = low pos 
+weight: 10 # less = top pos; more = low pos
 ---
 
-**[<span class="accent-link">../blog</span>](../blog/)**
+**[<span class="accent-link">../blog</span>](/blog/)**
