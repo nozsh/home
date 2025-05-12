@@ -3,7 +3,9 @@ languageCode: ru
 defaultContentLanguage: ru
 title: nozsh::hub
 theme: ["re-terminal"]
-paginate: 5
+
+pagination:
+  pagerSize: 5
 
 disableKinds: ["taxonomy"]
 
@@ -97,5 +99,5 @@ minify:
   minifyOutput: true
 
 permalinks:
-  posts: "/:filename" # convert = /posts/post1 => /post1, https://gohugo.io/content-management/urls/
-  pages: "/:filename"
+  posts: "/:contentbasename" # convert = /posts/post1 => /post1, https://gohugo.io/content-management/urls/
+  pages: "/:contentbasename"
