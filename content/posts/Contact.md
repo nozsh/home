@@ -14,14 +14,16 @@ description: "Как со мной связаться"
 # hideComments: false
 # color: "" #color from the theme settings
 noindex: true
-weight: 100 # less = top pos; more = low pos 
+weight: 100 # less = top pos; more = low pos
 ---
 
 - knowx101@proton.me
-- [Element Messenger](https://github.com/element-hq?sl)
+<!-- - [Element Messenger](https://github.com/element-hq?sl) -->
 
 ---
 
-Контакта в Element **НЕ будет** если вы используйте `matrix.org` или `matrix.im`.
+<!-- Больше [контактов](../bio/x/) для личных вопросов и быстрого ответа. -->
 
-Используйте другой [сервер](https://servers.joinmatrix.org/?sl).
+<!-- Контакта в Element **НЕ будет** если вы используйте `matrix.org` или `matrix.im`. -->
+
+<!-- Используйте другой [сервер](https://servers.joinmatrix.org/?sl). -->

@@ -24,6 +24,8 @@ Disallow: /blog/typo/
 Disallow: /blog/by-ai/
 Disallow: /blog/404/
 
+Disallow: /bio/
+
 Disallow: /temp/
 
 Sitemap: https://nozsh.su/sitemap.xml
