@@ -2,13 +2,30 @@ User-agent: *
 Disallow: /tags/
 Disallow: /categories/
 Disallow: /assets/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
 Disallow: /fav/
+Disallow: /img/
 Disallow: /xcom/
+Disallow: /contact/
+Disallow: /404/
+
 Disallow: /kb/assets/
 Disallow: /kb/fav/
+Disallow: /kb/typo/
+Disallow: /kb/changelog/
+Disallow: /kb/private-paste/
+
 Disallow: /blog/search/
 Disallow: /blog/assets/
 Disallow: /blog/fav/
 Disallow: /blog/typo/
 Disallow: /blog/by-ai/
+Disallow: /blog/404/
+
+Disallow: /bio/
+
+Disallow: /temp/
+
 Sitemap: https://nozsh.su/sitemap.xml

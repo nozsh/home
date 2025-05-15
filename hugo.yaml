@@ -1,56 +1,37 @@
-baseURL: https://nozsh.su/
-languageCode: ru
-defaultContentLanguage: ru
+baseURL: https://nozsh.com/
+languageCode: en
+defaultContentLanguage: en
 title: nozsh
-theme: ["Terminal"]
-
-languages:
-  ru:
-    languageCode: ru
-    languageDirection: ltr
-    languageName: Русский
-    weight: 10
-
-disableKinds: ["taxonomy", "taxonomyTerm"]
+theme: ["bio-x"]
+# themesDir: ".."
 
 params:
-  title: nozsh
-  description: "Make bash great again."
-  favicon: "fav/favicon.ico"
-  fav32px: "fav/favicon-32px.png"
-  fav16px: "fav/favicon-16px.png"
-  apple_touch_icon: "fav/favicon-180px.png"
-  safari_pinned_tab: "fav/favicon.svg"
+  preloader: true
+  assets:
+    favicon: "fav/favicon.ico"
+    favicon16x16: "fav/favicon-16px.png"
+    favicon32x32: "fav/favicon-32px.png"
+    apple_touch_icon: "fav/favicon-180px.png"
+    safari_pinned_tab: "fav/favicon.svg"
+    preloadLogo: "fav/favicon.svg"
+    preloadProfileLogo: "game-icons--bandit__n3gzQK.svg"
+    preloadPCLogo: "simple-icons--pcgamingwiki__pQs8FJ.svg"
+    preloadMonoBlockLogo: "pepicons-pop--monitor__h4Rmk9.svg"
+    preloadNotebookLaptoLogo: "game-icons--laptop__lcW4j6.svg"
 
-  prompt: "anon@nozsh"
-  promptColor: red
-  promptSimbols: ":~$"
-  promptSimbolsColor: green
-  exitLocation: "about:blank"
-  # greeting: |
-  #   Введите 'help', чтобы получить список доступных команд
-
-  blog:
-    blog_name: nozsh
-    blog_link: "https://nozsh.su/blog/"
-    blog_desc: Заметки. Идеи. Гайды.
-
-  kb:
-    kb_name: Knowledge Base
-    kb_link: https://nozsh.su/kb/
-    kb_desc: База знаний. С полезной и не очень информацией.
-
-  contact:
-    contact_name: Связь
-    contact_link: https://nozsh.su/contact/
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+  - sitemap
 
 minify:
-  disableXML: true
   minifyOutput: true
 
 markup:
   goldmark:
     renderer:
       unsafe: true
-    extensions:
-      linkify: false
+
+permalinks:
+  bio: "/:contentbasename"
