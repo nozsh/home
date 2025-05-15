@@ -61,7 +61,7 @@ background:
     <div class="item bg-transparent p-2 flex justify-center items-center w-[32px] mr-2 backdrop-blur-[1rem] rounded-lg">
       <img class="" src="/fav/favicon.svg" alt="" loading="lazy">
     </div>
-    <div class="item bg-transparent py-2 px-6 backdrop-blur-[1rem] rounded-lg">nozsh::hub</div>
+    <div class="item bg-transparent py-2 px-6 backdrop-blur-[1rem] rounded-lg">~/nozsh/hub</div>
   </div>
 </div>
 
