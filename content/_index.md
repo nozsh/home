@@ -66,21 +66,21 @@ background:
 </div>
 
 <div class="itemsbg py-4 flex flex-col justify-center items-center backdrop-blur-[1rem] rounded-lg w-full">
-  <a href="#">
+  <a href="/blog/">
     <div class="flex items-center m-2 leading-none action">
       <div class="item bg-transparent p-2 flex justify-center w-[32px] mr-2 backdrop-blur-[1rem] rounded-lg">✏️</div>
       <div class="item bg-transparent py-2 px-6 backdrop-blur-[1rem] rounded-lg">Blog</div>
     </div>
   </a>
 
-  <a href="#">
+  <a href="/kb/">
     <div class="flex items-center m-2 leading-none action">
       <div class="item bg-transparent p-2 flex justify-center items-center w-[32px] mr-2 backdrop-blur-[1rem] rounded-lg">🧠</div>
       <div class="item bg-transparent py-2 px-6 backdrop-blur-[1rem] rounded-lg">Knowledge Base</div>
     </div>
   </a>
 
-  <a href="#">
+  <a href="/contact/">
     <div class="flex items-center m-2 leading-none action">
       <div class="item bg-transparent p-2 flex justify-center items-center w-[32px] mr-2 backdrop-blur-[1rem] rounded-lg">☕</div>
       <div class="item bg-transparent py-2 px-6 backdrop-blur-[1rem] rounded-lg">Contact</div>
