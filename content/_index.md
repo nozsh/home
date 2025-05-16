@@ -11,7 +11,7 @@ cover:
   pic: ""
   alt: ""
 desc:
-  text: ""
+  text: "Make bash great again!"
 twitter_card: "summary"
 assets:
   favicon_on: true
