@@ -1,7 +1,7 @@
 baseURL: https://nozsh.com/
 languageCode: en
 defaultContentLanguage: en
-title: nozsh hub
+title: nozsh
 theme: ["bio-x"]
 # themesDir: ".."
 
