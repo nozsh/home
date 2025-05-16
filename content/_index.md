@@ -88,22 +88,14 @@ background:
   </a>
 </div>
 
-<div class="credits cursor-default fixed text-sm text-nowrap overflow-hidden leading-[0.2] bottom-[1rem] bg-transparent px-[1.5rem] py-[1rem] hover:py-[1.5rem] hover:backdrop-blur-[1rem] hover:rounded-lg group">
-  Background by <a class="group-hover:font-bold cool-underline" href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a> / <a class="group-hover:font-bold cool-underline" href="https://unsplash.com/">Unsplash</a>
+<div class="credits itemsbg cursor-default fixed text-sm text-nowrap overflow-hidden leading-[0.2] bottom-[1rem] px-[1.5rem] py-[1.5rem] backdrop-blur-[1rem] rounded-lg">
+  Background by <a class="font-bold cool-underline" href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a> / <a class="font-bold cool-underline" href="https://unsplash.com/">Unsplash</a>
 </div>
 
 <style>
   .credits {
     left: 50%;
     transform: translateX(-50%);
-    transition: all 0.2s ease;
-    opacity: 0.5;
-  }
-
-  .credits:hover {
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.35);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 </style>
 
