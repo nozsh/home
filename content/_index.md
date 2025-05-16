@@ -1,5 +1,6 @@
 ---
 draft: false
+noindex: false
 containerClass: "container max-w-full flex justify-center items-center h-screen"
 contentClass: "mt-8 p-4 flex justify-center items-center w-full sm:max-w-md flex-col gap-3 font-semibold"
 
