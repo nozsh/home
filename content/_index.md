@@ -7,11 +7,11 @@ contentClass: "mt-8 p-4 flex justify-center items-center w-full sm:max-w-md flex
 preloader: true
 
 title: "nozsh"
+desc:
+  text: "Make bash great again!"
 cover:
   pic: ""
   alt: ""
-desc:
-  text: "Make bash great again!"
 twitter_card: "summary"
 assets:
   favicon_on: true
