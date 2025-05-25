@@ -16,12 +16,14 @@ Disallow: /kb/fav/
 Disallow: /kb/typo/
 Disallow: /kb/changelog/
 Disallow: /kb/private-paste/
+Disallow: /kb/404/
 
 Disallow: /blog/search/
 Disallow: /blog/assets/
 Disallow: /blog/fav/
 Disallow: /blog/typo/
 Disallow: /blog/by-ai/
+Disallow: /blog/source-by-original/
 Disallow: /blog/404/
 
 Disallow: /bio/
