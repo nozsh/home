@@ -102,6 +102,7 @@ background:
 <script>
   let exceptions = {
     гайд: { value: "guide", enabled: true },
+    про: { value: "about", enabled: true },
     россия: { value: "russia", enabled: true },
     сша: { value: "usa", enabled: true },
     "соединенные-штаты-америки": { value: "united-states-of-america", enabled: true },
