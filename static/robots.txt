@@ -28,4 +28,4 @@ Disallow: /bio/
 
 Disallow: /temp/
 
-Sitemap: https://nozsh.su/sitemap.xml
+Sitemap: https://nozsh.com/sitemap.xml
