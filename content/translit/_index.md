@@ -103,6 +103,7 @@ background:
   let exceptions = {
     гайд: { value: "guide", enabled: true },
     про: { value: "about", enabled: true },
+    клиент: { value: "client", enabled: true },
     россия: { value: "russia", enabled: true },
     сша: { value: "usa", enabled: true },
     "соединенные-штаты-америки": { value: "united-states-of-america", enabled: true },
@@ -220,7 +221,7 @@ background:
 
     return word
       .split("")
-      .map((ch) => map[ch] || ch)
+      .map((ch) => (ch in map ? map[ch] : ch))
       .join("");
   }
 
